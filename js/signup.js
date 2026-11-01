@@ -5,7 +5,7 @@
    If anything goes wrong, forms fall back to a normal submit, so no signup is lost. */
 (function () {
   var KIT = 'https://app.kit.com/forms/10128531/subscriptions';
-  var DELAY_MS = 8000;                       // how long to wait before the pop-up appears
+  var DELAY_MS = 5000;                       // how long to wait before the pop-up appears
   var SNOOZE_DAYS = 30;                      // how long to wait after someone closes it
   var KEY_SUBSCRIBED = 'mg_subscribed';
   var KEY_DISMISSED = 'mg_popup_closed';
